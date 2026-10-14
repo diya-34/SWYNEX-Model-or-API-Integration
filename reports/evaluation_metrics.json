@@ -1,0 +1,77 @@
+{
+    "timestamp": "2026-10-14T09:31:12.307445",
+    "total_samples": 245,
+    "train_samples": 196,
+    "test_samples": 49,
+    "test_size": 0.2,
+    "random_state": 42,
+    "accuracy": 0.7551,
+    "macro_f1": 0.7655,
+    "weighted_f1": 0.7655,
+    "classes": [
+        "ASSIGNMENT",
+        "EVENT",
+        "EXAM",
+        "FEE",
+        "GENERAL",
+        "HOLIDAY",
+        "PLACEMENT"
+    ],
+    "classification_report": {
+        "ASSIGNMENT": {
+            "precision": 1.0,
+            "recall": 0.7142857142857143,
+            "f1-score": 0.8333333333333334,
+            "support": 7.0
+        },
+        "EVENT": {
+            "precision": 0.625,
+            "recall": 0.7142857142857143,
+            "f1-score": 0.6666666666666666,
+            "support": 7.0
+        },
+        "EXAM": {
+            "precision": 0.7142857142857143,
+            "recall": 0.7142857142857143,
+            "f1-score": 0.7142857142857143,
+            "support": 7.0
+        },
+        "FEE": {
+            "precision": 1.0,
+            "recall": 0.8571428571428571,
+            "f1-score": 0.9230769230769231,
+            "support": 7.0
+        },
+        "GENERAL": {
+            "precision": 0.8,
+            "recall": 0.5714285714285714,
+            "f1-score": 0.6666666666666666,
+            "support": 7.0
+        },
+        "HOLIDAY": {
+            "precision": 1.0,
+            "recall": 0.8571428571428571,
+            "f1-score": 0.9230769230769231,
+            "support": 7.0
+        },
+        "PLACEMENT": {
+            "precision": 0.5,
+            "recall": 0.8571428571428571,
+            "f1-score": 0.631578947368421,
+            "support": 7.0
+        },
+        "accuracy": 0.7551020408163265,
+        "macro avg": {
+            "precision": 0.8056122448979591,
+            "recall": 0.7551020408163264,
+            "f1-score": 0.7655264534963784,
+            "support": 49.0
+        },
+        "weighted avg": {
+            "precision": 0.8056122448979592,
+            "recall": 0.7551020408163265,
+            "f1-score": 0.7655264534963782,
+            "support": 49.0
+        }
+    }
+}

@@ -1,0 +1,22 @@
+STUDENT ANNOUNCEMENT INTELLIGENCE SYSTEM — CLASSIFICATION REPORT
+Generated: 2026-10-14 09:31:12
+=================================================================
+
+Test Accuracy    : 75.51%
+Macro F1-Score   : 0.7655
+Weighted F1-Score: 0.7655
+
+Detailed Breakdown:
+              precision    recall  f1-score   support
+
+  ASSIGNMENT     1.0000    0.7143    0.8333         7
+       EVENT     0.6250    0.7143    0.6667         7
+        EXAM     0.7143    0.7143    0.7143         7
+         FEE     1.0000    0.8571    0.9231         7
+     GENERAL     0.8000    0.5714    0.6667         7
+     HOLIDAY     1.0000    0.8571    0.9231         7
+   PLACEMENT     0.5000    0.8571    0.6316         7
+
+    accuracy                         0.7551        49
+   macro avg     0.8056    0.7551    0.7655        49
+weighted avg     0.8056    0.7551    0.7655        49
